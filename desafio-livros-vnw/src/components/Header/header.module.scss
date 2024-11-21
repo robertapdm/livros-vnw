@@ -27,6 +27,11 @@ header{
         justify-content: space-evenly;
         align-items: center;
     }
+    .link{
+        color: #FFFFFF;
+        font-size: 1.5vw;
+        text-decoration: none;
+    }
 }
 .search{
     width: 15vw;
@@ -46,6 +51,11 @@ header{
         text-align: center;
         outline: 0;
     }
+    .btn{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
 }
 ::-webkit-input-placeholder{
     color: #FFFFFF;
@@ -61,6 +71,6 @@ header{
 }
 ::-moz-placeholder{
     color: #FFFFFF;
-i    opacity: 0.5;
+    opacity: 0.5;
 
 }
