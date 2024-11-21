@@ -1,0 +1,53 @@
+main{
+    width: 100vw;
+    height: 150vh;
+    .hero{
+        width: 100vw;
+        height: 81vh;
+        background-image: url("../../assets/images/banner.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    .title{
+        color: #FFFFFF;
+        max-width: 280px;
+        margin: 0 12vw;
+        }
+    }
+}
+.infos{
+    width: 100vw;
+    height: 69vh;
+    background-color: #FFFFFF;
+    margin-top: 5vw;
+    .subtitle{
+        margin-left: 6vw;
+        color: #005695;
+        font-size: 2vw;
+    }
+}
+.cards{
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5vw;
+    .card{
+        width: 18vw;
+        height: 42vh;
+        background-color: #0157944D;
+        padding: 1vw;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        .info{
+        max-width: 13vw;
+        font-size: 1.3vw;
+        font-weight: 400;
+        text-align: center;
+        }
+    }
+}
