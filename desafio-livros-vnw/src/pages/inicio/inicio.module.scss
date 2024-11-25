@@ -51,3 +51,39 @@ main{
         }
     }
 }
+
+/*Responsivo*/
+@media (max-width:500px) {
+    main{
+        height: 200vh;
+        .hero{
+            height: 45vh;
+            background-position: center;
+            justify-content: center;
+            text-align: center;
+        }
+    }
+    .infos{
+        height: 69vh;
+        margin-top: 15vw;
+        .subtitle{
+            text-align: center;
+            font-size: 10vw;
+        }
+    }
+    .cards{
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 15vw;
+        .card{
+            width: 80vw;
+            height: 30vh;
+            margin-bottom: 5vw;
+            .info{
+            max-width: 70vw;
+            font-size: 6vw;
+            }
+        }
+    }
+}

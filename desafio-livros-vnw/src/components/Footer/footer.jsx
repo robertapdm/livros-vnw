@@ -13,11 +13,11 @@ function footer() {
         <section className={s.contact}>
             <p>4002-8922</p>
           <div className={s.social}>
-            <img src={Facebook} alt="ícone do facebook" />
-            <img src={Twitter} alt="ícone do twitter" />
-            <img src={Youtube} alt="ícone do youtube" />
-            <img src={LinkedIn} alt="ícone do LinkedIn" />
-            <img src={Instagram} alt="ícone do Instagram" />
+            <img className="icon" src={Facebook} alt="ícone do facebook" />
+            <img className="icon" src={Twitter} alt="ícone do twitter" />
+            <img className="icon" src={Youtube} alt="ícone do youtube" />
+            <img className="icon" src={LinkedIn} alt="ícone do LinkedIn" />
+            <img className="icon" src={Instagram} alt="ícone do Instagram" />
           </div>
         </section>
         <section className={s.copyright}>
