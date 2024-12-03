@@ -10,22 +10,25 @@ export default function Inicio() {
     {
       id:1,
       img: Community,
-      text: "Oferece Livros a quem não tem acesso, ajudando a reduzir a exclusão social"
+      text: "Oferece Livros a quem não tem acesso, ajudando a reduzir a exclusão social",
+      discription:"a"
     },
     {
       id:2,
       img: Reading,
-      text: "Estimula o hábito da leitura e o aprendizado contínuo"
+      text: "Estimula o hábito da leitura e o aprendizado contínuo",
+      discription:"a"
     },
     {
       id:3,
       img: Transform,
-      text: "Fornece conhecimento e inspiração, permitindo que indivíduos transformem suas vidas."
+      text: "Fornece conhecimento e inspiração, permitindo que indivíduos transformem suas vidas.", discription:"a"
     },
     {
       id:4,
       img: Balance,
-      text: "    Garante que todos, independentemente de sua condição, tenham oportunidades de aprendizado."
+      text: "    Garante que todos, independentemente de sua condição, tenham oportunidades de aprendizado.",
+      discription:"a"
     }
   ])
 
@@ -39,7 +42,7 @@ export default function Inicio() {
         <div className={s.cards}>
         {card.map((item) => (
           <div className={s.card}>
-            <img src={item.img} alt="" />
+            <img className={s.imgCard} src={item.img} alt={item.discription} />
             <p className={s.info}>{item.text}</p>
           </div>
         ))}
